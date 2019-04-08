@@ -9,6 +9,9 @@ from xhtml2pdf import pisa
 # globals
 
 cssdefault = """@media print {
+
+
+
   * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
   a, a:visited { text-decoration: underline; }
   a[href]:after { content: " (" attr(href) ")"; }
